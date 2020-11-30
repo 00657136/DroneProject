@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "492386283102",
+    "firebase_url": "https://drone-e2da1.firebaseio.com",
+    "project_id": "drone-e2da1",
+    "storage_bucket": "drone-e2da1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492386283102:android:1b64da2132dab8dbac4ecf",
+        "android_client_info": {
+          "package_name": "com.dji.uxsdkdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492386283102-dfjvlraidbdmdklaco3um9q2393fdkvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcq9HT_wtfZeL_GgIBd6CEGVuPRKb6c0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492386283102-dfjvlraidbdmdklaco3um9q2393fdkvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

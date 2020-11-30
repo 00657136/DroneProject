@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/black"
+    tools:context=".HomePageActivity">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_droneUX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/drone"
+            />
+
+        <Button
+            android:id="@+id/btn_mediaManager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/chart"
+            />
+        <Button
+            android:id="@+id/btn_trackFly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/plan"
+            />
+
+        <Button
+            android:id="@+id/btn_analysis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/analysis"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
